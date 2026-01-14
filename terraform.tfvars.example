@@ -1,0 +1,13 @@
+aws_profile    = "galiceau-labs"
+aws_region     = "eu-west-1"
+project_name   = "db-access-test"
+
+# SSH Public Key - Remplacer par votre clé publique
+# Linux/Mac: ssh-keygen -t rsa -b 4096 -f ~/.ssh/db-access-test
+# Windows: ssh-keygen -t rsa -b 4096 -f %USERPROFILE%\.ssh\db-access-test
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD... your-public-key-here"
+
+# Database credentials
+db_name     = "testdb"
+db_username = "admin"
+db_password = "ChangeMe123!"  # IMPORTANT: Changer ce mot de passe !
